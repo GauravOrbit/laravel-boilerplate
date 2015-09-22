@@ -153,6 +153,8 @@ return [
         yajra\Datatables\DatatablesServiceProvider::class,
         Pqb\FilemanagerLaravel\FilemanagerLaravelServiceProvider::class,
         Greggilbert\Recaptcha\RecaptchaServiceProvider::class,
+        Irazasyed\LaravelGAMP\LaravelGAMPServiceProvider::class,
+        Aws\Laravel\AwsServiceProvider::class,
     ],
 
     /*
@@ -210,6 +212,8 @@ return [
         'Datatables' => yajra\Datatables\Datatables::class,
         'FilemanagerLaravel' => Pqb\FilemanagerLaravel\Facades\FilemanagerLaravel::class,
         'Recaptcha' => Greggilbert\Recaptcha\Facades\Recaptcha::class,
+        'GAMP' => Irazasyed\LaravelGAMP\Facades\GAMP::class,
+        'AWS' => Aws\Laravel\AwsFacade::class,
     ],
 
 ];
